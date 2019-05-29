@@ -59,13 +59,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121E8762229F083A00BE0EC2 /* Scene support files */ = {
+			isa = PBXGroup;
+			children = (
+				12B752EF22772AD00001EB0A /* GameScene.sks */,
+				12B752F122772AD00001EB0A /* Actions.sks */,
+				12B75307227CDED30001EB0A /* fire.sks */,
+				12B75305227C73850001EB0A /* stars.sks */,
+			);
+			path = "Scene support files";
+			sourceTree = "<group>";
+		};
+		121E8763229F096B00BE0EC2 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				12B752FA22772AD20001EB0A /* Assets.xcassets */,
+				12B7530C227F00140001EB0A /* backgroundMusic.m4a */,
+				12B7530B227F00140001EB0A /* hitSound.wav */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		121E8764229F09C500BE0EC2 /* Settings_Pause_GameOver */ = {
+			isa = PBXGroup;
+			children = (
+				12B75311228005080001EB0A /* GameSettings.swift */,
+				12B75309227EE43B0001EB0A /* PauseViewController.swift */,
+				12B7530F227F3CD40001EB0A /* GameOverViewController.swift */,
+			);
+			path = Settings_Pause_GameOver;
+			sourceTree = "<group>";
+		};
+		121E8765229F0A6100BE0EC2 /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				12B75313228047520001EB0A /* EnemySpaceShip.swift */,
+			);
+			path = Enemies;
+			sourceTree = "<group>";
+		};
+		121E8766229F0A9F00BE0EC2 /* StartScreen_GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				12B75315228163250001EB0A /* StartViewController.swift */,
+				12B752F522772AD00001EB0A /* GameViewController.swift */,
+				12B752F322772AD00001EB0A /* GameScene.swift */,
+			);
+			path = StartScreen_GameScreen;
+			sourceTree = "<group>";
+		};
 		12B752E122772AD00001EB0A = {
 			isa = PBXGroup;
 			children = (
 				12B752EC22772AD00001EB0A /* SpaceGame */,
 				12B752EB22772AD00001EB0A /* Products */,
-				12B7530C227F00140001EB0A /* backgroundMusic.m4a */,
-				12B7530B227F00140001EB0A /* hitSound.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,20 +127,13 @@
 		12B752EC22772AD00001EB0A /* SpaceGame */ = {
 			isa = PBXGroup;
 			children = (
-				12B752EF22772AD00001EB0A /* GameScene.sks */,
-				12B752F122772AD00001EB0A /* Actions.sks */,
-				12B75307227CDED30001EB0A /* fire.sks */,
-				12B75305227C73850001EB0A /* stars.sks */,
 				12B752ED22772AD00001EB0A /* AppDelegate.swift */,
-				12B75315228163250001EB0A /* StartViewController.swift */,
-				12B752F522772AD00001EB0A /* GameViewController.swift */,
-				12B752F322772AD00001EB0A /* GameScene.swift */,
-				12B75311228005080001EB0A /* GameSettings.swift */,
-				12B75309227EE43B0001EB0A /* PauseViewController.swift */,
-				12B7530F227F3CD40001EB0A /* GameOverViewController.swift */,
-				12B75313228047520001EB0A /* EnemySpaceShip.swift */,
+				121E8762229F083A00BE0EC2 /* Scene support files */,
+				121E8766229F0A9F00BE0EC2 /* StartScreen_GameScreen */,
+				121E8765229F0A6100BE0EC2 /* Enemies */,
+				121E8764229F09C500BE0EC2 /* Settings_Pause_GameOver */,
+				121E8763229F096B00BE0EC2 /* Supporting files */,
 				12B752F722772AD00001EB0A /* Main.storyboard */,
-				12B752FA22772AD20001EB0A /* Assets.xcassets */,
 				12B752FC22772AD20001EB0A /* LaunchScreen.storyboard */,
 				12B752FF22772AD20001EB0A /* Info.plist */,
 			);
