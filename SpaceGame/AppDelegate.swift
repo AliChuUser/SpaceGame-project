@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // pay attention to the launchScreen for 2 secondss
-        sleep(2)
+        //sleep(1)
         
         return true
     }

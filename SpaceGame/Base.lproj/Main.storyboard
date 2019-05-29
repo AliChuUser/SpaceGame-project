@@ -84,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLE-HI-XQW">
-                                <rect key="frame" x="319" y="36" width="40" height="18"/>
+                                <rect key="frame" x="319" y="36" width="40" height="40"/>
                                 <state key="normal" backgroundImage="pauseBtn"/>
                                 <connections>
                                     <action selector="pauseButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ruD-7M-ONE"/>
